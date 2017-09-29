@@ -1,0 +1,26 @@
+body{
+	background-image: url("image.jpg"); no-repeat center;
+	background-size: cover;
+	height: 100vh; 
+	text-align: center;
+	color: blue;
+}
+
+h1{
+	font-size: 40px;
+	margin: 40px 0px 0px;
+}
+
+#timer-div{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 30px
+}
+
+.time-unit, .time-unit span{
+	display: inline-block;
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 5px;
+	border: 1px solid white;
+}
